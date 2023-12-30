@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keep Yourself Fit</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            background: url('img/bg.jpg.webp');
+            background-repeat: no-repeat;
+            background-size:cover;
+        }
+        .left{
+            position: absolute;
+            left: 34px;
+            top: 15px;
+            display: inline-block;
+        }
+        
+        .left img{
+            width: 100px;
+            border: 2px dotted white;
+            border-radius: 90px;
+        }
+        .left div{
+            text-align: left;
+            line-height: 20px;
+            font-size: 20px;
+        }
+        .mid{
+            display: block;
+            margin: 15px auto;;
+            width: 40%;
+            /* border: 2px solid red; */
+            /* background-color: antiquewhite; */
+           }
+        .right{
+            position: absolute;
+            right: 34px;
+            top: 15px;
+            display: inline-block;
+            /* border: 2px solid red; */
+            /* background-color: antiquewhite; */
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            display: inline-block;
+            font-size: 20px;
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 30px 20px;
+        }
+        .navbar li a:hover{
+            text-decoration: underline;
+        }
+        .btn{
+            margin: 15px auto;
+            border: 2px solid rgb(112, 112, 237);
+            border-radius: 30px;
+            font-size: 15px;
+            cursor: pointer;
+
+        }
+        .btn:hover{
+            background-color: gray;
+        }
+        .container{
+            text-align: center;
+            color: white;
+            border: 2px solid green;
+            margin: 90px 10px;
+            padding: 0px;
+            width: 30%;
+            border-radius: 20px;
+        }
+        .form-group input{
+            text-align: center;
+            width: 250px;
+            padding: 1px;
+            border: 2px solid yellow;
+            margin: 11px auto;
+            font-size: 15px;
+            border-radius: 5px;
+        }
+        .container button{
+            display: block;
+            width: 40%;
+            margin: 11px auto;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/bg.jpg.webp">
+            <div style="color: white;"> Vikas Fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Charges</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Create Account</button>
+            <button class="btn">Login</button>
+        </div>
+    </header>
+    <div class="container">
+        <h3> JOIN THE BEST GYM OF BHOPAL </h3>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Full Name">
+            </div>
+            
+            <div class="form-group">
+                <input type="text" name="" placeholder="Contact Number">
+            </div>
+  
+            <div class="form-group">
+                <input type="number" name="" placeholder="Age">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Gender">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Locality">
+            </div>
+
+            <div class="form-group">
+                <button>Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
